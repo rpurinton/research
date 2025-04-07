@@ -1,4 +1,14 @@
 #!/usr/bin/env php
 <?php
 
+use RPurinton\{
+    Log,
+    Shutdown,
+    Research\Research,
+};
+
 require '../vendor/autoload.php';
+
+Log::install();
+Shutdown::install();
+Research::begin($argv);

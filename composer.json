@@ -14,5 +14,13 @@
             "email": "russell.purinton@gmail.com"
         }
     ],
-    "require": {}
+    "require": {
+        "rpurinton/openai": "^1.0",
+        "rpurinton/shutdown": "^1.0"
+    },
+    "config": {
+        "allow-plugins": {
+            "php-http/discovery": true
+        }
+    }
 }
